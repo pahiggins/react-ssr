@@ -13,8 +13,8 @@ class UsersList extends Component {
   }
   render() {
     return (
-      <div>
-        List of users:
+      <div className="left-align" style={{ marginTop: "100px", marginLeft: "200px" }}>
+        <h4>List of users:</h4>
         <ul>{this.renderUsers()}</ul>
       </div>
     );
